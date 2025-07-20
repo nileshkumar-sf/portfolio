@@ -5,6 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 import CodingProfilesSection from "./components/CodingProfilesSection";
 import SideStepperNav from "./components/SideStepperNav";
+import CuratedResourcesSection from "./components/CuratedResourcesSection";
 
 export default function Home() {
   return (
@@ -31,13 +32,16 @@ export default function Home() {
         <section id="coding-profiles" className="w-full">
           <CodingProfilesSection />
         </section>
+        <section id="curated-resources" className="w-full">
+          <CuratedResourcesSection />
+        </section>
         <section id="contact" className="w-full min-h-screen py-20 px-6 flex flex-col items-center justify-center text-slate-100">
           <h2 className="text-3xl font-bold mb-6 text-center">Contact</h2>
           <p className="max-w-xl mb-4 text-slate-300 text-center">
             Feel free to reach out for collaboration, opportunities, or just to say hello!
           </p>
           <a
-            href="mailto:nilesh.kumar@example.com"
+            href="mailto:nileshkr9919@gmail.com"
             className="bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-800 transition-colors"
           >
             Email Me

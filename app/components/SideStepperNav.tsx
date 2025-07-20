@@ -11,6 +11,7 @@ const sections = [
   { id: "projects", label: "Projects", icon: FaProjectDiagram },
   { id: "skills", label: "Skills", icon: MdStars },
   { id: "coding-profiles", label: "Coding Profiles", icon: FaCode },
+  { id: "curated-resources", label: "Interesting reads", icon: MdStars },
   { id: "contact", label: "Contact", icon: FaEnvelope },
 ];
 
